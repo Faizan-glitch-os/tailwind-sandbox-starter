@@ -7,27 +7,124 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Interactivity</title>
   </head>
-  <body>
+  <body class="scroll-smooth">
     <!-- Hover State Styling -->
+    <a
+      href="#last"
+      class="hover:bg-cyan-500 hover:text-black relative left-10 top-10 p-4 rounded-2xl bg-black text-white"
+    >
+      Button
+    </a>
 
     <!-- Focus State Styling -->
+    <button
+      class="focus:bg-cyan-500 focus:text-black relative left-10 top-10 p-4 rounded-2xl bg-black text-white"
+    >
+      Button
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="active:bg-cyan-500 active:text-black relative left-10 top-10 p-4 rounded-2xl bg-black text-white"
+    >
+      Button
+    </button>
 
     <!-- Styling based on parent state -->
+    <div
+      class="group hover:bg-cyan-200 w-96 h-48 rounded-xl border border-cyan-500"
+    >
+      <button
+        class="group-hover:bg-cyan-500 hover:text-black relative left-10 top-10 p-4 rounded-2xl bg-black text-white"
+      >
+        Button
+      </button>
+    </div>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="even:bg-cyan-500 odd:bg-cyan-200">item 1</li>
+      <li class="even:bg-cyan-500 odd:bg-cyan-200">item 2</li>
+      <li class="even:bg-cyan-500 odd:bg-cyan-200">item 3</li>
+      <li class="even:bg-cyan-500 odd:bg-cyan-200">item 4</li>
+      <li class="even:bg-cyan-500 odd:bg-cyan-200">item 5</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none" name="options" id="options">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
 
     <!-- Cursor -->
+    <button
+      class="hover:cursor-wait hover:bg-cyan-500 hover:text-black relative left-10 top-10 p-4 rounded-2xl bg-black text-white"
+    >
+      Button
+    </button>
 
     <!-- Resize -->
 
     <!-- User Select -->
+    <p class="mt-24 select-all">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+      quaerat.
+    </p>
+    <p class="mt-24 select-none">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+      quaerat.
+    </p>
+    <p class="mt-24 select-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+      quaerat.
+    </p>
+    <p class="mt-24 select-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+      quaerat.
+    </p>
+    <p class="mt-24 select-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+      quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+      repellat dicta molestiae sapiente vero magnam quam illo quas, totam,
+      mollitia maxime maiores rerum reprehenderit, sed impedit iste voluptatem
+      incidunt laboriosam. Sequi vel nesciunt rem incidunt voluptate vero
+      repellat, doloribus soluta, ipsa hic veniam explicabo quos? Quod fugit
+      repellendus perferendis asperiores modi minima, eaque nesciunt
+      voluptatibus officia, totam repellat ab esse! Ratione, architecto beatae
+      autem provident dicta nihil aperiam tenetur consectetur! Velit facilis
+      natus molestiae a vitae? Dolores unde, sint adipisci nihil esse doloremque
+      est modi! Esse ab facilis praesentium consectetur. Reiciendis praesentium
+      ea sed illum repudiandae sapiente non ad esse qui veniam corporis vel odio
+      quae eos, distinctio quo asperiores saepe. Eius incidunt ipsam, error
+      maiores dolores esse aspernatur. Ad! Delectus, beatae? Aperiam ipsum sint
+      laudantium quae quidem ducimus mollitia odio excepturi, praesentium
+      inventore dolore esse labore quo obcaecati et voluptas omnis blanditiis.
+      Ullam reprehenderit voluptate hic, laudantium perferendis minima. Tempore
+      aspernatur officiis possimus corporis. Nam fugit, nulla laborum cum
+      aliquid iusto non mollitia inventore vero rerum, illum nihil tenetur
+      temporibus consectetur. Ipsam architecto sit iure? Modi at architecto
+      amet. Quasi eum provident est dignissimos quo quis a aliquam ut doloremque
+      doloribus, veritatis soluta itaque! Quam a consectetur libero qui velit?
+      Ipsam recusandae iusto eligendi ipsa soluta! Ipsum, nisi explicabo!
+      Aliquid modi asperiores consequuntur dolorum odio? Repellat nulla quaerat
+      quae dicta, eaque dolore odit, esse ipsa officia officiis ducimus
+      praesentium iste deserunt expedita dolores magni sit reprehenderit dolorum
+      labore accusamus? Facere officia quis, adipisci iusto distinctio porro
+      doloremque iure a nulla, natus delectus amet voluptate inventore
+      dignissimos saepe voluptatem eveniet voluptates blanditiis fugit excepturi
+      quia nesciunt ullam. Labore, libero voluptas? Minima iure aliquid ea!
+      Dolorem, nihil eum. Asperiores expedita quod obcaecati id maxime, eum quia
+      fugiat voluptas a assumenda, sint laudantium ab amet voluptatem dolore eos
+      dolores eveniet eaque hic?
+    </p>
+    <p id="last" class="mt-24 select-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+      quaerat.
+    </p>
 
     <!-- Smooth Scroll Example -->
+    done
   </body>
 </html>
 
